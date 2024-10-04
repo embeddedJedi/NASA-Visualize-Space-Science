@@ -270,9 +270,9 @@
     <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.11\Editor\Data\Util\RGBANodeOutput.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.11\Editor\Data\Util\GraphUtil.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.11\Editor\Drawing\Controls\SliderControl.cs" />
-    <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.11\Editor\Data\Nodes\Input\Basic\SliderNode.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.11\Editor\Data\Nodes\Input\Lighting\MainLightDirectionNode.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.11\Editor\Importers\ShaderGraphMetadata.cs" />
+    <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.11\Editor\Data\Nodes\Input\Basic\SliderNode.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.11\Editor\Data\Nodes\Input\Texture\SampleTexture3DNode.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.11\Editor\Data\Util\KeywordDependentCollection.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.11\Editor\Data\Nodes\Math\Round\StepNode.cs" />
@@ -646,8 +646,8 @@
     <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.11\Editor\Data\Nodes\TitleAttribute.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.11\Editor\Drawing\Views\PropertySheet.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.11\Editor\Drawing\Inspector\PropertyDrawers\TriplanarNodePropertyDrawer.cs" />
-    <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.11\Editor\Drawing\MaterialGraphPreviewGenerator.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.11\Editor\Data\Nodes\Math\Vector\FresnelEffectNode.cs" />
+    <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.11\Editor\Drawing\MaterialGraphPreviewGenerator.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.11\Editor\Data\Graphs\SpaceMaterialSlot.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.11\Editor\Drawing\Inspector\WindowDockingLayout.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@14.0.11\Editor\Drawing\Views\ContextView.cs" />

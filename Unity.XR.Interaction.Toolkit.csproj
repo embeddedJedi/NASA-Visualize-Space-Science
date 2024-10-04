@@ -151,8 +151,8 @@
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@2.6.3\Runtime\Utilities\Tweenables\SmartTweenableVariables\SmartFollowQuaternionTweenableVariable.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@2.6.3\Runtime\Interaction\Filtering\Poke\PokeThresholdDatumProperty.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@2.6.3\Runtime\Interaction\XRInteractionEvents.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@2.6.3\Runtime\Utilities\Collections\NativeCurve.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@2.6.3\Runtime\AffordanceSystem\Theme\Primitives\Vector3AffordanceThemeDatum.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@2.6.3\Runtime\Utilities\Collections\NativeCurve.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@2.6.3\Runtime\AffordanceSystem\Receiver\Rendering\Vector3MaterialPropertyAffordanceReceiver.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@2.6.3\Runtime\Interaction\Controllers\ActionBasedController.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@2.6.3\Runtime\Locomotion\Teleportation\ITeleportationVolumeAnchorFilter.cs" />
