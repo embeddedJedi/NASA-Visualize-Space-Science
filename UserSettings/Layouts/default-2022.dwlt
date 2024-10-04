@@ -680,16 +680,16 @@ MonoBehaviour:
       layout: 4
       size: {x: 0, y: 0}
       sizeOverriden: 0
-    - dockPosition: 1
-      containerId: overlay-container--right
-      floating: 0
+    - dockPosition: 0
+      containerId: Floating
+      floating: 1
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 48, y: 48}
+      snapOffset: {x: 1035, y: 751}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: UnityEditor.SceneViewCameraOverlay
-      index: 10
+      index: 0
       layout: 4
       size: {x: 0, y: 0}
       sizeOverriden: 0
@@ -704,9 +704,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 6.0842204, y: 3.9999998, z: 1.5300715}
+    m_Target: {x: 18.589684, y: 6.1231313, z: 13.642698}
     speed: 2
-    m_Value: {x: 6.08422, y: 3.9999995, z: 1.5300708}
+    m_Value: {x: 18.589684, y: 6.1231313, z: 13.642698}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -752,13 +752,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.056884747, y: -0.9391285, z: 0.19075973, w: 0.2800392}
+    m_Target: {x: 0.0863437, y: -0.4489876, z: 0.043642614, w: 0.8882885}
     speed: 2
-    m_Value: {x: 0.05759265, y: -0.9384159, z: 0.19208112, w: 0.28136015}
+    m_Value: {x: 0.08734093, y: -0.45556873, z: 0.044972233, w: 0.8847634}
   m_Size:
-    m_Target: 0.032806415
+    m_Target: 9.783568
     speed: 2
-    m_Value: 0.034352265
+    m_Value: 9.783568
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -827,7 +827,7 @@ MonoBehaviour:
   m_TargetSize: {x: 1275, y: 897}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
-  m_RenderIMGUI: 1
+  m_RenderIMGUI: 0
   m_EnterPlayModeBehavior: 0
   m_UseMipMap: 0
   m_VSyncEnabled: 0
@@ -851,7 +851,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -919,21 +919,21 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 274}
-      m_SelectedIDs: 7adbfdff
-      m_LastClickedID: -140422
-      m_ExpandedIDs: 8806ffff3e1dffff8a27ffff9227ffff9e27ffff2e38ffff3c69ffff5469ffff8e94ffffb094ffffb494ffffeaa0ffff2ad0ffff2ed0ffff82d9ffffa2d9fffffadfffff4ae0ffff12fbffff16fbffff18fbffffd273000008740000
+      scrollPos: {x: 0, y: 256}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: a856ffff7e5affffe6f5ffff3ef6ffff42f6ffff64f6ffff68f6ffffa8f6ffffc8f6ffffe0f6ffff00f7ffff18f7ffff34f7ffff74f7ffff8cf7ffffa8f7ffffe4f8ffff04f9ffff1cf9ffff38f9ffff86f9ffffe4faffff24fbffffe0730000e473000022740000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Main Camera
-        m_OriginalName: Main Camera
+        m_Name: Environment - Space Station
+        m_OriginalName: Environment - Space Station
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 29684
+        m_UserData: 29664
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
         m_OriginalEventType: 0
@@ -990,7 +990,7 @@ MonoBehaviour:
     m_SceneHandles: 
     m_ShowAllHits: 0
     m_SkipHidden: 0
-    m_SearchArea: 1
+    m_SearchArea: 0
     m_Folders:
     - Assets/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements
     m_Globs: []
@@ -1007,23 +1007,23 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 2a790000
-    m_LastClickedID: 31018
-    m_ExpandedIDs: 00000000327700003477000036770000387700001879000024790000dc910000de910000
+    m_SelectedIDs: f27b0000
+    m_LastClickedID: 31730
+    m_ExpandedIDs: 00000000107a0000127a0000147a0000167a0000187a00001c7a00001e7a0000f27b0000509e0000529e0000ffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Joints
+      m_OriginalName: Joints
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 31754
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 9}
     m_SearchString: 
@@ -1037,7 +1037,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 90750000
     m_LastClickedID: 30096
-    m_ExpandedIDs: 0000000032770000347700003677000038770000
+    m_ExpandedIDs: 00000000107a0000127a0000147a0000167a0000187a00001a7a00001c7a00001e7a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1068,18 +1068,18 @@ MonoBehaviour:
     m_ExpandedInstanceIDs: c62300008c7e0000a07e0000907e0000a67e0000aa7e00009a7e0000d87b0000d09e0000d08e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: bunk_bed
+      m_OriginalName: bunk_bed
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 31784
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 9}
     m_CreateAssetUtility:
