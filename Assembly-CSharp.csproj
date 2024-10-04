@@ -60,7 +60,20 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.48f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
+    <Compile Include="Assets\Lets Make a VR Game\UI 3D Examples\UI_3D\Scripts\XRLever.cs" />
+    <Compile Include="Assets\Lets Make a VR Game\UI 3D Examples\UI_3D\Scripts\ClawMachine\FlippyDoor.cs" />
+    <Compile Include="Assets\Lets Make a VR Game\UI 3D Examples\UI_3D\Scripts\XRGripButton.cs" />
+    <Compile Include="Assets\Lets Make a VR Game\UI 3D Examples\UI_3D\Scripts\XRPushButton.cs" />
+    <Compile Include="Assets\Lets Make a VR Game\UI 3D Examples\UI_3D\Scripts\ClawMachine\UfoAbductionForce.cs" />
+    <Compile Include="Assets\Lets Make a VR Game\UI 3D Examples\UI_3D\Scripts\ClawMachine\ClawMachine.cs" />
+    <Compile Include="Assets\Lets Make a VR Game\Oculus Hands\Scripts\AnimateHandOnInput.cs" />
+    <Compile Include="Assets\Lets Make a VR Game\UI 3D Examples\UI_3D\Scripts\XRKnob.cs" />
+    <Compile Include="Assets\Lets Make a VR Game\UI 3D Examples\UI_3D\Scripts\XRSlider.cs" />
+    <Compile Include="Assets\Lets Make a VR Game\UI 3D Examples\UI_3D\Scripts\XRJoystick.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Lets Make a VR Game\ReadMe.txt" />
+    <None Include="Assets\Sci-Fi Styled Modular Pack\Readme.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -909,6 +922,10 @@
       <Project>{944BED57-6228-9269-A293-D9DB813D849C}</Project>
       <Name>Unity.XR.Management</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Editor.csproj">
+      <Project>{65D13732-1C0E-BF20-095A-0A04E258ED12}</Project>
+      <Name>Unity.XR.Interaction.Toolkit.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Core.Runtime.csproj">
       <Project>{1EAD86C3-F935-C314-9B98-54A320609013}</Project>
       <Name>Unity.RenderPipelines.Core.Runtime</Name>
@@ -985,6 +1002,10 @@
       <Project>{28B9FB79-2514-956B-5145-9740E4B0F70E}</Project>
       <Name>Unity.XR.OpenXR.Features.OculusQuestSupport</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.XR.Interaction.Toolkit.csproj">
+      <Project>{B3F4DDD7-2081-44AF-45E7-4B4F00461470}</Project>
+      <Name>Unity.XR.Interaction.Toolkit</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Universal.Editor.csproj">
       <Project>{130FF494-3B88-FB1E-AC55-5CBFEB4F91A5}</Project>
       <Name>Unity.RenderPipelines.Universal.Editor</Name>
@@ -1049,6 +1070,10 @@
       <Project>{89FB7648-F873-DE0E-9A18-FF5B72E3CD68}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj">
+      <Project>{CC01C6B1-6992-76A7-1C3B-4C52B12B9100}</Project>
+      <Name>Unity.XR.Interaction.Toolkit.Samples.StarterAssets</Name>
+    </ProjectReference>
     <ProjectReference Include="UnityEditor.XR.LegacyInputHelpers.csproj">
       <Project>{11A565FF-D382-B1C3-D6D2-111BE880A37A}</Project>
       <Name>UnityEditor.XR.LegacyInputHelpers</Name>
@@ -1108,6 +1133,10 @@
     <ProjectReference Include="Unity.VisualScripting.State.csproj">
       <Project>{751A1A33-2D08-F81E-7F42-ABCBA573E4CB}</Project>
       <Name>Unity.VisualScripting.State</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor.csproj">
+      <Project>{7EF93412-E215-419F-B7D4-F4231396D0A8}</Project>
+      <Name>Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

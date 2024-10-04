@@ -60,7 +60,20 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.48f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
+    <Compile Include="Assets\Lets Make a VR Game\UI 3D Examples\UI_3D\Scripts\XRLever.cs" />
+    <Compile Include="Assets\Lets Make a VR Game\UI 3D Examples\UI_3D\Scripts\ClawMachine\FlippyDoor.cs" />
+    <Compile Include="Assets\Lets Make a VR Game\UI 3D Examples\UI_3D\Scripts\XRGripButton.cs" />
+    <Compile Include="Assets\Lets Make a VR Game\UI 3D Examples\UI_3D\Scripts\XRPushButton.cs" />
+    <Compile Include="Assets\Lets Make a VR Game\UI 3D Examples\UI_3D\Scripts\ClawMachine\UfoAbductionForce.cs" />
+    <Compile Include="Assets\Lets Make a VR Game\UI 3D Examples\UI_3D\Scripts\ClawMachine\ClawMachine.cs" />
+    <Compile Include="Assets\Lets Make a VR Game\Oculus Hands\Scripts\AnimateHandOnInput.cs" />
+    <Compile Include="Assets\Lets Make a VR Game\UI 3D Examples\UI_3D\Scripts\XRKnob.cs" />
+    <Compile Include="Assets\Lets Make a VR Game\UI 3D Examples\UI_3D\Scripts\XRSlider.cs" />
+    <Compile Include="Assets\Lets Make a VR Game\UI 3D Examples\UI_3D\Scripts\XRJoystick.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Lets Make a VR Game\ReadMe.txt" />
+    <None Include="Assets\Sci-Fi Styled Modular Pack\Readme.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -869,6 +882,10 @@
       <Project>{E696D7DA-AA78-A1FA-6B47-4CB4A701E421}</Project>
       <Name>Unity.XR.OpenXR.Features.OculusQuestSupport.Player</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Player.csproj">
+      <Project>{865E5F59-9516-C09D-B877-A4564CDD9599}</Project>
+      <Name>Unity.XR.Interaction.Toolkit.Player</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.Player.csproj">
       <Project>{BA8AAB33-76D6-0BF9-9D1D-B2B9A41D9218}</Project>
       <Name>Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.Player</Name>
@@ -896,6 +913,10 @@
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
       <Project>{8A7D56BB-4705-E062-67AC-8D2A2C748817}</Project>
       <Name>UnityEngine.UI.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Player.csproj">
+      <Project>{32112DFE-5AB4-AF2A-A7F3-145449DD1EC5}</Project>
+      <Name>Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipeline.Universal.ShaderLibrary.Player.csproj">
       <Project>{4CBE764A-7CE7-1D62-6350-28F430661912}</Project>
